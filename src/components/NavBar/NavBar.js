@@ -71,7 +71,7 @@ const NavBar = () => {
               <NavLink
               className="nav-link underline"
               activeClassName="activeNav"
-              to="/portfolio">
+              to="/Contact">
                 Contacto
               </NavLink>
             </li>

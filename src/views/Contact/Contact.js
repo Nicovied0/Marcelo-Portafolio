@@ -3,11 +3,11 @@ import Grid from '@material-ui/core/Grid';
 import FB from '../../Assets/fb.png';
 import Gmail from '../../Assets/gmail.png'
 
-const Portfolio = () => {
+const Contact = () => {
   return (
     <div id="Homepage" class="fullscreen portfolioWidth">
       <Grid container spacing={2}>
-      <Grid item sm={12} data-aos="fade-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+      <Grid item sm={12} data-aos="fade-in" data-aos-duration="1300" data-aos-easing="ease-in-out">
 
         {/* About Picture */}
         
@@ -29,7 +29,7 @@ const Portfolio = () => {
             </a>
             
          
-          <img draggable="false" class="aboutImage" src="profileIcon.png" alt="Echo"/>
+      
           </div>
           
         </div>
@@ -40,4 +40,4 @@ const Portfolio = () => {
   );
 }
 
-export default Portfolio;
+export default Contact;
