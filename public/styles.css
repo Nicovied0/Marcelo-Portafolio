@@ -199,7 +199,9 @@
    color: black;
  }
  .aboutText {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
  }
  .aboutImage {
    max-width: 200px;

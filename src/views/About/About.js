@@ -52,7 +52,7 @@ const About = (props) => {
               <a
                 href="CV2022.pdf"
                 download
-                class="btn resumeButton bigButton blueButton buttonLink"
+                class="btn btn-primary  bigButton blueButton buttonLink"
                 role="button"
               >
                 Descargar CV
