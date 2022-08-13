@@ -22,11 +22,13 @@ const Contact = () => {
             <br />
 
             {/* About Text */}
-            <div class="aboutText">
-              <a href="mailto:marcelogoviedo@gmail.com">
+            <div class="aboutText" >
+              <a href="mailto:marcelogoviedo@gmail.com" data-aos="zoom-in"
+     data-aos-duration="2000">
                 <img draggable="false" class="aboutImage" src={Gmail} alt="gm" />
               </a>
-              <a href="mailto:marcelogoviedo@gmail.com">
+              <a href="mailto:marcelogoviedo@gmail.com" data-aos="zoom-in"
+     data-aos-duration="3000">
                 <img draggable="false" class="aboutImage" src={FB} alt="fb" />
               </a>
             </div>
