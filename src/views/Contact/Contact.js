@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import FB from '../../Assets/fb.png';
 import Gmail from '../../Assets/gmail.png';
 import Form from './Form'
+import WSP from '../../Assets/wsp.png';
 
 
 const Contact = () => {
@@ -31,7 +32,13 @@ const Contact = () => {
      data-aos-duration="3000">
                 <img draggable="false" class="aboutImage" src={FB} alt="fb" />
               </a>
+              <a href="https://walink.co/f763b8" data-aos="zoom-in"
+     data-aos-duration="3000">
+                <img draggable="false" class="aboutImage" src={WSP} alt="wsp" />
+              </a>
             </div>
+
+            
 
           </div>
         </Grid>
