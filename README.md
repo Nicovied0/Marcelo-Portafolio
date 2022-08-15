@@ -13,3 +13,8 @@ Portafolio Personal Marcelo Oviedo
 - React Router
 - HTML, CSS, JavaScript
 - Bootstrap, Material UI,Aos
+
+
+<p align="center">
+  <img src="/public/imginicio.png" alt="Img" />
+</p>
