@@ -1,5 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
+import Pdf from '../../Assets/CV2022.pdf';
 
 const About = (props) => {
   return (
@@ -50,8 +51,8 @@ const About = (props) => {
      data-aos-duration="2000">
               <br />
               <a
-                href="CV2022.pdf"
-                download
+                href={Pdf}
+                download="CV.pdf"
                 class="btn btn-primary  bigButton blueButton buttonLink"
                 role="button"
               >

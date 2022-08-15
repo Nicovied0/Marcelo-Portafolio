@@ -550,68 +550,7 @@
   text-align: center;
  }
  
- /* Timeline */
- .bigTimeline {
-   display: none;
- }
- .smallTimeline {
-  display: inline-block;
- }
- .icon {
-   margin-bottom: .8rem;
- }
- .iconDate {
-   padding-top: 1.4rem;
-   padding-bottom: .1rem;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- .noPaddingTop {
-   padding-top: 0; 
- }
-
- /* Project Page */
- .carousel-inner {
-   max-width: 350px;
- }
-.imgVertical {
-  display: block;
-}
-.imgLandscape {
-  display: none; 
-}
-.text {
-  width: 110%; 
-}
-.card {
-  flex-direction: column; 
-  height: 100%;
-  align-items: center;
-}
-.cardBtn {
-  margin: auto;
-  width: 50%;
-}
-.cardCenter {
-  text-align: center;
-}
-.card-half {
-  width: 100%;
-}
-.projectButtons {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1rem;
-}
-.goToSite {
-  position: relative;
-  left: .5rem; 
-}
-.learnMore {
-  position: relative;
-  right: .5rem; 
-}
+ 
 
  /* Work Details Page */
  .workContainer {
@@ -645,4 +584,25 @@
   margin-top: .8rem;
 }
 
+
+.SocialLinks{ 
+  display: none;
+}
  }}
+
+ @media screen and (min-width: 700px) {
+  /* Contact Form*/
+ .forms{
+  margin-top: 5rem;
+}
+  }
+
+  @media screen and (max-width: 990px) {
+   .moreInfo{
+    margin: 0.7rem;
+  }
+    }
+ 
+
+  
+  

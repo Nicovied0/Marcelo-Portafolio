@@ -6,7 +6,7 @@ class Form extends React.Component {
             <section
                 data-aos="fade-up"
                 data-aos-duration="2500"
-                style={{ marginTop: "5rem" }}
+                className="forms"
 
             >
                 <div className="overlay-mf" ></div>

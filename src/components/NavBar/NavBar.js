@@ -14,19 +14,15 @@ const NavBar = () => {
   return(
     <div>
       <nav class="navbar navbar-container fixed-top navbar-expand-lg navbar-light transparent">
-
+        
         {/*/Homepage Link */}
         <a class="navbar-brand name" href="/#/home">
           Marcelo G. Oviedo
         </a>
 
-        {/* Menu Icon */}
-        <button class="navbar-toggler" type="button" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <MenuIcon />
-        </button>
-
+       
         {/* Social Buttons */}
-        <div>
+        <div className='SocialLinks'>
           <Tooltip title={<div style={{ fontSize: "1rem", padding: ".5rem" }}>Mi Gmail</div>} arrow TransitionComponent={Zoom} class="linkSpace linkColor">
             <Link color="inherit" href="mailto:marcelogoviedo@gmail.com" target="_blank">
               <EmailIcon />
@@ -79,6 +75,11 @@ const NavBar = () => {
 
           </ul>
         </div>
+         {/* Menu Icon */}
+         <button class="navbar-toggler" type="button" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <MenuIcon />
+        </button>
+
       </nav>
    </div>
   );

@@ -22,7 +22,7 @@ const Home = props => {
         </div> 
 
         {/* Link to Portfolio */}
-        <div data-aos="fade-right" data-aos-duration="2500" data-aos-easing="ease-in-out" data-aos-delay="600">
+        <div  className="moreInfo" data-aos="fade-right" data-aos-duration="2500" data-aos-easing="ease-in-out" data-aos-delay="600">
           <Link to="/about" class="btn btn-primary btn-lg purple buttonLink p-3 " role="button"> + info </Link>
         </div> 
       </div>
