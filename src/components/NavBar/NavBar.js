@@ -11,16 +11,21 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
 
-  return(
+
+
+  return (
     <div>
-      <nav class="navbar navbar-container fixed-top navbar-expand-lg navbar-light transparent">
-        
+      <nav className="nav navbar navbar-container fixed-top navbar-expand-lg navbar-light ">
+ {/* Menu Icon */}
+ <button class="navbar-toggler" type="button" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <MenuIcon />
+              </button>
         {/*/Homepage Link */}
-        <a class="navbar-brand name" href="/#/home">
+        <a className="navbar-brand name" href="/#/home">
           Marcelo G. Oviedo
         </a>
+        
 
-       
         {/* Social Buttons */}
         <div className='SocialLinks'>
           <Tooltip title={<div style={{ fontSize: "1rem", padding: ".5rem" }}>Mi Gmail</div>} arrow TransitionComponent={Zoom} class="linkSpace linkColor">
@@ -38,26 +43,26 @@ const NavBar = () => {
               <FacebookIcon />
             </Link>
           </Tooltip>
-         </div>
+        </div>
 
-         {/* Home Link */}
-         <div class="collapse navbar-collapse drop nav-item" id="navbarNav">
+        {/* Home Link */}
+        <div class="collapse navbar-collapse drop nav-item" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item nav-center linkSpace linkColor">
               <NavLink
-              className="nav-link underline"
-              activeClassName="activeNav"
-              to="/home">
+                className="nav-link underline"
+                activeClassName="activeNav"
+                to="/home">
                 Inicio
               </NavLink>
             </li>
-            
+
             {/* About Link */}
             <li class="nav-item nav-center linkSpace linkColor">
               <NavLink
-              className="nav-link underline aboutLink"
-              activeClassName="activeNav"
-              to="/about">
+                className="nav-link underline aboutLink"
+                activeClassName="activeNav"
+                to="/about">
                 Sobre Mi
               </NavLink>
             </li>
@@ -65,23 +70,19 @@ const NavBar = () => {
             {/* Work Link */}
             <li class="nav-item nav-center linkSpace linkColor">
               <NavLink
-              className="nav-link underline"
-              activeClassName="activeNav"
-              to="/Contact">
+                className="nav-link underline"
+                activeClassName="activeNav"
+                to="/Contact">
                 Contacto
               </NavLink>
             </li>
-
+           
 
           </ul>
         </div>
-         {/* Menu Icon */}
-         <button class="navbar-toggler" type="button" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <MenuIcon />
-        </button>
 
       </nav>
-   </div>
+    </div>
   );
 
 }

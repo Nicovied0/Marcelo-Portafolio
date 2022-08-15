@@ -13,9 +13,9 @@ export const Routes = () => {
       <NavBar />
       <Footer />
       <Switch>
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/">
-          <Redirect to="/home" />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/home">
+          <Redirect to="/" />
         </Route>
         <Route exact path="/about" component={About} />
         <Route exact path="/Contact" component={Contact} />

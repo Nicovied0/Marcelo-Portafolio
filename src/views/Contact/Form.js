@@ -93,7 +93,7 @@ class Form extends React.Component {
                                                         <div className="col-md-12">
                                                             <button
                                                                 type="submit"
-                                                                className="button btn-primary btn-lg "
+                                                                className="button btn-primary btn-lg submit "
                                                             >
                                                                 Enviar Mensaje
                                                             </button>
