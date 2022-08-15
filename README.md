@@ -1,16 +1,15 @@
 # Portfolio
+Portafolio Personal Marcelo Oviedo
 
-My ReactJS portfolio website deployed onto Github Pages.
 
-## Features
+## Características
 
-- Home, About, and Work Pages
+- Home, About, and Contact
 - Responsive Design 
 
-## Tools
+## Herramientas
 
 - ReactJS
 - React Router
 - HTML, CSS, JavaScript
-- Bootstrap, Material UI
-- Github Pages
+- Bootstrap, Material UI,Aos
