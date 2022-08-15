@@ -90,9 +90,7 @@ class Form extends React.Component {
                                                                 <div className="validation"></div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-md-12"
-                                                            data-aos="zoom-out"
-                                                            data-aos-duration="2500">
+                                                        <div className="col-md-12">
                                                             <button
                                                                 type="submit"
                                                                 className="button btn-primary btn-lg "

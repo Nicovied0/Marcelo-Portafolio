@@ -52,7 +52,7 @@ const About = (props) => {
               <br />
               <a
                 href={Pdf}
-                download="CV.pdf"
+                download="CV"
                 class="btn btn-primary  bigButton blueButton buttonLink"
                 role="button"
               >
