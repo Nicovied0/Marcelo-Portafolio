@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import Pdf from '../../Assets/CV2022.pdf';
+import Pdf from '../../Assets/Oviedo_Marcelo.pdf';
 
 const About = (props) => {
   return (
@@ -52,9 +52,9 @@ const About = (props) => {
               <br />
               <a
                 href={Pdf}
-                download="CV_Oviedo_Marcelo.pdf"
+                download="CV_Marcelo_Oviedo.pdf"
+                target="_blank"
                 class="btn btn-primary  bigButton blueButton buttonLink"
-                role="button"
               >
                 Descargar CV
               </a>
