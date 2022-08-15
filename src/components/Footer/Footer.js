@@ -6,7 +6,10 @@ const Footer = () => {
   <div class="footer">
    <footer>
       <div>
-        <p>Copyright&copy; 2022 - ONDev.</p>
+        <p>Copyright&copy; 2022 - <a 
+         href='https://ondev.vercel.app' target="_blank">ONDev.
+         </a>
+         </p>
        
       </div>
    </footer>
