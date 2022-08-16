@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import Pdf from '../../Assets/Oviedo_Marcelo.pdf';
+import Pdf from '../../Assets/CV_OVIEDO_MARCELO.pdf';
 
 const About = (props) => {
   return (
